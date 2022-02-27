@@ -1,0 +1,45 @@
+footer{
+    background: black;
+    overflow: auto;
+}
+footer .footer-cols{
+    max-width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 100px;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0rem;
+    text-align: left;
+}
+
+footer .footer-cols ul{
+    margin-top: 20px;
+    list-style: none
+}
+
+footer .footer-cols ul li{
+    font-family: unset;
+    color: silver;
+    font-size: 20px;
+}
+
+footer .footer-cols a{
+    text-decoration: none;
+    font-size: 20px;
+    color: silver;
+}
+
+.footer-bottom{
+    /* padding: 2rem; */
+    margin: 5%;
+    color: silver;
+}
+
+#show{
+    font-size: 15px;
+}
+
+#show1{
+    text-decoration: underline;
+}
