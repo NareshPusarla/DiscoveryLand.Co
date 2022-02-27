@@ -1,0 +1,120 @@
+body{
+    background-color: #171717;
+    padding: 0;
+    margin: 0;
+}
+
+/* header */
+.about{
+    position: absolute;
+    /* bottom: 500px; */
+    top: 0px;
+    width: 100%;
+    /* padding-bottom: 0px; */
+}
+
+.about a img{
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+.merge{
+    float: right;
+    padding-right: 250px;
+    padding-top: 70px;
+}
+#menu{
+    text-decoration: none;
+    color: white;
+    padding-left: 50px;
+}
+#menu:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+/* body */
+#gallery{
+    position: absolute;
+    top: 200px;
+    padding-left: 200px;
+    color: white;
+    font-size: 60px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.row .column img{
+    width: 506px;
+    height: 300px;
+}
+
+.row .column p{
+    font-size: 25px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+/* footer */
+
+footer{
+    margin-top: 50px;
+    background: rgba(44, 44, 44, 0.877);
+    overflow: auto;
+}
+
+footer img{
+    margin-top: 150px;
+    margin-left: -300px;
+    filter: brightness(20);
+}
+
+footer .footer-cols{
+    max-width: 500px;
+    text-align: center;
+    margin: 0 450px;
+    display: grid;
+    grid-gap: 100px;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: left;
+}
+
+footer .footer-cols ul{
+    margin-top: 150px;
+    list-style: none;
+    padding-left: 90px;
+    line-height: 40px;
+}
+
+footer .footer-cols ul li{
+    font-family: unset;
+    color: silver;
+    font-size: 18px;
+}
+
+footer .footer-cols a{
+    text-decoration: none;
+    font-size: 18px;
+    color: silver;
+}
+
+footer .footer-cols a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.footer-bottom{
+    margin: 2%;
+    color: silver;
+}
+
+#show{
+    font-size: 15px;
+}
+
+#show1{
+    text-decoration: underline;
+}

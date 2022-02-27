@@ -1,0 +1,249 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* header */
+
+.about{
+    position: relative;
+    bottom: 900px;
+    width: 100%;
+    padding: 0px;
+}
+.merge{
+float: right;
+padding-right: 250px;
+padding-top: 100px;
+}
+#menu{
+text-decoration: none;
+color: white;
+padding-left: 50px;
+width: 50px;
+}
+#menu:hover{
+text-decoration: underline;
+}
+
+.about a img{
+    padding-top: 90px;
+    padding-left: 100px;
+}
+
+/* body */
+
+#discover{
+    position: absolute;
+    top: 300px;
+    padding-left: 350px;
+    font-size: 80px;
+    color: white;
+    font-family: initial;
+}
+#discover1{
+    position: absolute;
+    top: 350px;
+    padding-left: 350px;
+    font-size: 80px;
+    color: white;
+    font-family: initial;
+}
+
+.image{
+    position: relative;
+}
+
+.image img{
+    width: 100%;
+    margin-top: -200px;
+}
+
+.image .para{
+    position: absolute;
+    top: -50px;
+    left: 20px; 
+    padding-left: 150px;
+    font-size: 18px;
+    font-family: serif;
+}
+
+.image .para #welcome{
+    font-size: 40px;
+    line-height: 0px;
+    font-family: serif;
+    font-weight: lighter;
+}
+
+.corner{
+    position: relative;
+    width: 35%;
+    height: 70%;
+}
+
+.corner img{
+    position: absolute;
+    padding-left: 810px;
+    bottom: 200px;
+}
+.corner1{
+    position: relative;
+    top: 150px;
+    right: 680px;
+}
+
+#explore {
+    padding-left: 100px;
+}
+
+.slider {
+    height: 600px;
+    max-width: 100%;
+    margin: 20px auto;
+    position: relative;
+    overflow: hidden;
+    transform: translate3d(0, 0, 0);
+}
+
+.slider .slide-track {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 150px;
+    height: 100%;
+    animation: moveSlideshow 50s linear infinite;
+    transform: translate3d(0, 0, 0);
+}
+
+.slider .carousel-item {
+    padding-right: 20px;
+}
+
+.slider .slide-track p{
+    position: relative;
+    bottom: 100px;
+    left: 45px;
+    font-size: 21px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: azure;
+}
+
+@keyframes moveSlideshow {
+    100% {
+        transform: translateX(-300%);
+    }
+}
+
+.carousel-item img {
+    width: 500px;
+    height: 700px;
+    filter: brightness(60%);
+}
+
+.carousel-item img:hover{
+    transform: scale(1.1);
+}
+
+.row{
+    display: flex;
+    filter: brightness(70%);
+    margin-bottom: -10px;
+}
+
+.row #experiences{
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    margin-top: 320px;
+    margin-left: 100px;
+    text-decoration: none;
+}
+
+.row #lifestyle{
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    margin-top: 320px;
+    margin-left: 650px;
+    text-decoration: none;
+}
+
+.row #wellness{
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    margin-top: 320px;
+    right: 140px;
+    text-decoration: none;
+}
+
+.row #exp{
+    position: relative;
+}
+
+.row #life{
+    position: relative;
+    left: 110px;
+}
+
+.row #slider{
+    position: relative;
+    left: 245px;
+}
+
+/* footer */
+
+footer{
+    background: black;
+    overflow: auto;
+}
+
+footer img{
+    margin-top: 150px;
+    margin-left: -300px;
+    filter: brightness(20);
+}
+
+footer .footer-cols{
+    max-width: 500px;
+    text-align: center;
+    margin: 0 450px;
+    display: grid;
+    grid-gap: 100px;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: left;
+}
+
+footer .footer-cols ul{
+    margin-top: 150px;
+    list-style: none;
+    padding-left: 50px;
+    line-height: 40px;
+}
+
+footer .footer-cols ul li{
+    font-family: unset;
+    color: silver;
+    font-size: 20px;
+}
+
+footer .footer-cols a{
+    text-decoration: none;
+    font-size: 20px;
+    color: silver;
+}
+
+.footer-bottom{
+    padding: 2rem;
+    margin: 5%;
+    color: silver;
+}
+
+#show{
+    font-size: 15px;
+}
+
+#show1{
+    text-decoration: underline;
+}
