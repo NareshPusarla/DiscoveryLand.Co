@@ -112,7 +112,7 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding-bottom: 20px;
 }
-.front div{
+.front .hall{
     position: relative;
     padding-left: 750px;
     bottom: 450px;
@@ -245,4 +245,311 @@ footer .footer-cols a:hover{
 
 #show1{
     text-decoration: underline;
+}
+
+/* responsiveness */
+
+@media screen and (max-width: 599px) {
+.about{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.about a img{
+    padding-top: 50px;
+    padding-left: 0px;
+}
+
+.merge{
+    display: flex;
+    flex-direction: column;
+    margin-top: -30px;
+}
+#menu{
+    text-decoration: none;
+    color: white;
+    padding-left: 20px;
+    padding-top: 10px;
+    width: 200px;
+}
+
+/* footer */
+
+footer{
+    width: 100%;
+    margin-top: 50px;
+    background: rgba(44, 44, 44, 0.877);
+    overflow: auto;
+}
+
+footer img{
+    margin-left: auto;
+    filter: brightness(20);
+}
+
+footer .footer-cols{
+    text-align: center;
+    margin: 0 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+footer .footer-cols ul{
+    margin-top: 0px;
+    list-style: none;
+    padding-left: 0px;
+}
+
+/* body */
+
+#discover{
+    top: 250px;
+    padding-left: 100px;
+    font-size: 50px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#discover1{
+    position: absolute;
+    top: 300px;
+    padding-left: 100px;
+    font-size: 50px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#history{
+    text-align: center;
+    font-size: 15px;
+    font-family: sans-serif;
+    padding-left: 20px;
+    line-height: 7px;
+    margin-top: -200px;
+}
+
+.smile{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.smile img{
+    margin-bottom: 75px;
+}
+
+#center{
+    font-size: 40px;
+    font-family: monospace;
+    padding-left: 20px;
+}
+
+.smile p{
+    font-size: 16px;
+    line-height: 5px;
+    margin-top: 25px;
+    text-align-last: left;
+    padding-left: 20px;
+}
+
+.port{
+    margin-top: 50px;
+    width: 100%;
+    margin-left: 0;
+}
+
+.design{
+    top: 50px;
+    width: 100%;
+    height: 75vh;
+}
+
+.front{
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+}
+.front a{
+    padding-left: 30px;
+}
+.front p{
+    padding-left: 20px;
+    text-align-last: left;
+    bottom: 20px;
+    color: rgb(104, 102, 102);
+}
+.front #center{
+    color: lightslategray;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 0px;
+}
+.front .hall{
+    padding-left: 20px;
+    bottom: 0px;
+}
+
+.wooden{
+    margin-top: 50px;
+    left: 20px;
+    width: 90%;
+}
+
+.image .para{
+    top: 300px;
+    left: 20px; 
+    padding-left: 20px;
+}
+
+.corner{
+    position: relative;
+    width: 35%;
+    height: 50%;
+    margin-bottom: 500px;
+}
+
+.corner .villa{
+    position: relative;
+    left: 20px;
+    top: 700px;
+}
+.corner1{
+    position: relative;
+    top: 120px;
+}
+
+.lake{
+    position: relative;
+    top: 955px;
+    /* left: -50px; */
+    /* filter: brightness(80%); */
+}
+
+.lake p{
+    position: absolute;
+    bottom: 300px;
+    left: 650px;
+    color: white;
+    font-size: 50px;
+}
+.lake #explore{
+    position: absolute;
+    bottom: 250px;
+    left: 680px;
+    text-decoration: none;  
+    border: 1px solid white;
+    padding: 20px 60px;
+    color: white;
+    font-size: 15px;
+}
+.lake #explore:hover{
+    border : 3px solid white;
+}
+    
+}
+
+
+@media (min-width:600px) and (max-width: 959px) {
+    .about{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .about a img{
+        padding-top: 50px;
+        padding-left: 0px;
+    }
+    
+    .merge{
+        display: flex;
+        flex-direction: column;
+        margin-top: -30px;
+    }
+    #menu{
+        text-decoration: none;
+        color: white;
+        padding-left: 20px;
+        padding-top: 10px;
+        width: 200px;
+    }
+    
+    /* footer */
+    
+    footer{
+        width: 100%;
+        margin-top: 50px;
+        background: rgba(44, 44, 44, 0.877);
+        overflow: auto;
+    }
+    
+    footer img{
+        margin-left: auto;
+        filter: brightness(20);
+    }
+    
+    footer .footer-cols{
+        text-align: center;
+        margin: 0 50px;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+    
+    footer .footer-cols ul{
+        margin-top: 0px;
+        list-style: none;
+        padding-left: 0px;
+    }
+    
+}
+    
+@media (min-width: 960px) and (max-width: 1240px) {
+/* header */
+.about{
+    width: 100%;
+    padding-bottom: 60px;
+}
+
+.about a img{
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+.merge{
+    padding-right: 50px;
+    padding-top: 60px;
+}
+
+#menu{
+    text-decoration: none;
+    color: white;
+    padding-left: 20px;
+}
+
+/* footer */
+
+footer{
+    background: rgba(44, 44, 44, 0.877);
+    overflow: auto;
+}
+
+footer img{
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-right: auto;
+}
+
+footer .footer-cols{
+    text-align: center;
+    margin: 0 0px;
+    display: flex;
+    text-align: left;
+}
+
+footer .footer-cols ul{
+    margin-top: 50px;
+    padding-left: 0px;
+}
+
 }
